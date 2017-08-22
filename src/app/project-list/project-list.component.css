@@ -1,0 +1,13 @@
+.b-project {
+  border: 1px solid #efefef;
+  background: white;
+  padding: 10px;
+}
+
+.b-project__title {
+  font-size: 1em;
+}
+
+.b-project__description {
+  margin-top: 10px;
+}

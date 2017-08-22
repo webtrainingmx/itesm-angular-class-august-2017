@@ -1,0 +1,11 @@
+<h1>
+  <!-- Interpolation -->
+    {{ title }}
+</h1>
+<!-- A structural directive -->
+<div class="b-project" *ngFor="let project of projectList">
+  <h2 class="b-project__title">{{ project.title }}</h2>
+  <div class="b-project__description">
+    {{ project.description }}
+  </div>
+</div>
